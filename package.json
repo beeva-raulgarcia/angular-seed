@@ -11,11 +11,12 @@
     "eslint": "eslint .",
     "tslint": "tslint \"**/*.ts\" -c tslint.json -e \"**/config/schema.d.ts\" -e \"**/tests/**\" -e \"**/blueprints/*/files/**/*.ts\" -e \"node_modules/**\" -e \"tmp/**\" -e \"dist/**\" -e \"**/*.spec.ts\" -e \"src/test.ts\"",
     "lint": "ng lint",
+    "lint-staged": "lint-staged",
+    "precommit": "lint-staged",
     "e2e": "ng e2e",
     "pug-it": "pug src",
-    "pug-it:w": "pug src -P -w",
-    "precommit": "lint-staged",
-    "lint-staged": "lint-staged"
+    "pug-it:w": "pug src -P -w"
+
   },
   "lint-staged": {
     "verbose": true,

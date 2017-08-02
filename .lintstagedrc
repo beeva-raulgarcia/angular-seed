@@ -1,3 +1,0 @@
-{
-  "*.{ts,tsx}": ["prettier --parser typescript --write", "git add"]
-}
