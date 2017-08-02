@@ -14,13 +14,12 @@
     "e2e": "ng e2e",
     "pug-it": "pug src",
     "pug-it:w": "pug src -P -w",
-    "lint-staged": "lint-staged",
     "precommit": "lint-staged"
   },
   "lint-staged": {
     "*.ts": [
       "tslint --fix",
-      "git commit"
+      "git add"
     ]
   },
   "precommit": "lint-staged",
