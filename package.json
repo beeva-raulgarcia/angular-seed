@@ -17,10 +17,7 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.ts": [
-      "tslint",
-      "git add"
-    ]
+    "*.{js,ts}": "tslint"
   },
   "precommit": "lint-staged",
   "private": true,
